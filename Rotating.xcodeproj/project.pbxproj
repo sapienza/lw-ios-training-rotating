@@ -7,14 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3B8F61D01BD96405004336E1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B8F61CF1BD96405004336E1 /* main.m */; };
-		3B8F61D31BD96405004336E1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B8F61D21BD96405004336E1 /* AppDelegate.m */; };
-		3B8F61D61BD96405004336E1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B8F61D51BD96405004336E1 /* ViewController.m */; };
-		3B8F61D91BD96405004336E1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B8F61D71BD96405004336E1 /* Main.storyboard */; };
-		3B8F61DB1BD96405004336E1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B8F61DA1BD96405004336E1 /* Assets.xcassets */; };
-		3B8F61DE1BD96406004336E1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B8F61DC1BD96406004336E1 /* LaunchScreen.storyboard */; };
 		3B8F61E91BD96406004336E1 /* RotatingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B8F61E81BD96406004336E1 /* RotatingTests.m */; };
 		3B8F61F41BD96406004336E1 /* RotatingUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B8F61F31BD96406004336E1 /* RotatingUITests.m */; };
+		3B8F62101BD96468004336E1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B8F62031BD96468004336E1 /* AppDelegate.m */; };
+		3B8F62111BD96468004336E1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B8F62061BD96468004336E1 /* ViewController.m */; };
+		3B8F62121BD96468004336E1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B8F62081BD96468004336E1 /* Assets.xcassets */; };
+		3B8F62131BD96468004336E1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B8F62091BD96468004336E1 /* LaunchScreen.storyboard */; };
+		3B8F62141BD96468004336E1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B8F620B1BD96468004336E1 /* Main.storyboard */; };
+		3B8F62161BD96468004336E1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B8F620F1BD96468004336E1 /* main.m */; };
+		3B8F62181BD96485004336E1 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3B8F62171BD96485004336E1 /* Default-568h@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,21 +37,22 @@
 
 /* Begin PBXFileReference section */
 		3B8F61CB1BD96405004336E1 /* Rotating.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Rotating.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		3B8F61CF1BD96405004336E1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		3B8F61D11BD96405004336E1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		3B8F61D21BD96405004336E1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		3B8F61D41BD96405004336E1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		3B8F61D51BD96405004336E1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		3B8F61D81BD96405004336E1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		3B8F61DA1BD96405004336E1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		3B8F61DD1BD96406004336E1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		3B8F61DF1BD96406004336E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3B8F61E41BD96406004336E1 /* RotatingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RotatingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B8F61E81BD96406004336E1 /* RotatingTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RotatingTests.m; sourceTree = "<group>"; };
 		3B8F61EA1BD96406004336E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3B8F61EF1BD96406004336E1 /* RotatingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RotatingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B8F61F31BD96406004336E1 /* RotatingUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RotatingUITests.m; sourceTree = "<group>"; };
 		3B8F61F51BD96406004336E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3B8F62021BD96468004336E1 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3B8F62031BD96468004336E1 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3B8F62051BD96468004336E1 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3B8F62061BD96468004336E1 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3B8F62081BD96468004336E1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3B8F620A1BD96468004336E1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3B8F620C1BD96468004336E1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3B8F620E1BD96468004336E1 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3B8F620F1BD96468004336E1 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3B8F62171BD96485004336E1 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +83,7 @@
 		3B8F61C21BD96405004336E1 = {
 			isa = PBXGroup;
 			children = (
+				3B8F62171BD96485004336E1 /* Default-568h@2x.png */,
 				3B8F61CD1BD96405004336E1 /* Rotating */,
 				3B8F61E71BD96406004336E1 /* RotatingTests */,
 				3B8F61F21BD96406004336E1 /* RotatingUITests */,
@@ -101,14 +104,10 @@
 		3B8F61CD1BD96405004336E1 /* Rotating */ = {
 			isa = PBXGroup;
 			children = (
-				3B8F61D11BD96405004336E1 /* AppDelegate.h */,
-				3B8F61D21BD96405004336E1 /* AppDelegate.m */,
-				3B8F61D41BD96405004336E1 /* ViewController.h */,
-				3B8F61D51BD96405004336E1 /* ViewController.m */,
-				3B8F61D71BD96405004336E1 /* Main.storyboard */,
-				3B8F61DA1BD96405004336E1 /* Assets.xcassets */,
-				3B8F61DC1BD96406004336E1 /* LaunchScreen.storyboard */,
-				3B8F61DF1BD96406004336E1 /* Info.plist */,
+				3B8F62011BD96468004336E1 /* AppDelegate */,
+				3B8F62041BD96468004336E1 /* Controller */,
+				3B8F62071BD96468004336E1 /* Resources */,
+				3B8F620D1BD96468004336E1 /* SupportingFiles */,
 				3B8F61CE1BD96405004336E1 /* Supporting Files */,
 			);
 			path = Rotating;
@@ -117,7 +116,6 @@
 		3B8F61CE1BD96405004336E1 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				3B8F61CF1BD96405004336E1 /* main.m */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -138,6 +136,43 @@
 				3B8F61F51BD96406004336E1 /* Info.plist */,
 			);
 			path = RotatingUITests;
+			sourceTree = "<group>";
+		};
+		3B8F62011BD96468004336E1 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				3B8F62021BD96468004336E1 /* AppDelegate.h */,
+				3B8F62031BD96468004336E1 /* AppDelegate.m */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		3B8F62041BD96468004336E1 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				3B8F62051BD96468004336E1 /* ViewController.h */,
+				3B8F62061BD96468004336E1 /* ViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		3B8F62071BD96468004336E1 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				3B8F62081BD96468004336E1 /* Assets.xcassets */,
+				3B8F62091BD96468004336E1 /* LaunchScreen.storyboard */,
+				3B8F620B1BD96468004336E1 /* Main.storyboard */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		3B8F620D1BD96468004336E1 /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				3B8F620E1BD96468004336E1 /* Info.plist */,
+				3B8F620F1BD96468004336E1 /* main.m */,
+			);
+			path = SupportingFiles;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -243,9 +278,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3B8F61DE1BD96406004336E1 /* LaunchScreen.storyboard in Resources */,
-				3B8F61DB1BD96405004336E1 /* Assets.xcassets in Resources */,
-				3B8F61D91BD96405004336E1 /* Main.storyboard in Resources */,
+				3B8F62121BD96468004336E1 /* Assets.xcassets in Resources */,
+				3B8F62181BD96485004336E1 /* Default-568h@2x.png in Resources */,
+				3B8F62141BD96468004336E1 /* Main.storyboard in Resources */,
+				3B8F62131BD96468004336E1 /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,9 +306,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3B8F61D61BD96405004336E1 /* ViewController.m in Sources */,
-				3B8F61D31BD96405004336E1 /* AppDelegate.m in Sources */,
-				3B8F61D01BD96405004336E1 /* main.m in Sources */,
+				3B8F62101BD96468004336E1 /* AppDelegate.m in Sources */,
+				3B8F62161BD96468004336E1 /* main.m in Sources */,
+				3B8F62111BD96468004336E1 /* ViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -308,20 +344,20 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		3B8F61D71BD96405004336E1 /* Main.storyboard */ = {
+		3B8F62091BD96468004336E1 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				3B8F61D81BD96405004336E1 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		3B8F61DC1BD96406004336E1 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				3B8F61DD1BD96406004336E1 /* Base */,
+				3B8F620A1BD96468004336E1 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		3B8F620B1BD96468004336E1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3B8F620C1BD96468004336E1 /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -413,7 +449,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = Rotating/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Rotating/SupportingFiles/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = br.com.locaweb.treinamento.Rotating;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -424,7 +460,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = Rotating/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Rotating/SupportingFiles/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = br.com.locaweb.treinamento.Rotating;
 				PRODUCT_NAME = "$(TARGET_NAME)";
